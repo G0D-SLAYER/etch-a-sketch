@@ -1,0 +1,30 @@
+body {
+    padding: 0;
+    border: 0;
+    min-width: 100vh;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#heading {
+    margin-bottom: 60px;
+}
+
+#container {
+    /* flex: auto; */
+    flex-shrink: 0;
+    display: flex;
+    flex-wrap: wrap;
+    width: 480px;
+    height: 480px;
+    aspect-ratio: 1/1;
+}
+
+.grid {
+    /* flex: 1,1,auto; */
+    border: 1px solid black;
+    background-color: wheat;
+}
